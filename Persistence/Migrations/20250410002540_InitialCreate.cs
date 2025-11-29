@@ -23,8 +23,8 @@ namespace Persistence.Migrations
                     isCancelled = table.Column<bool>(type: "INTEGER", nullable: false),
                     City = table.Column<string>(type: "TEXT", nullable: false),
                     Venue = table.Column<string>(type: "TEXT", nullable: false),
-                    Latitute = table.Column<double>(type: "REAL", nullable: false),
-                    Longitute = table.Column<double>(type: "REAL", nullable: false)
+                    Latitude = table.Column<double>(type: "REAL", nullable: false),
+                    Longitude = table.Column<double>(type: "REAL", nullable: false)
                 },
                 constraints: table =>
                 {
